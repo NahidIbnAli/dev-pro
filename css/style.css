@@ -1,6 +1,10 @@
 .mb-10 {
   margin-bottom: 170px;
 }
+.fa-solid,
+.fa-regular {
+  color: gold;
+}
 @media screen and (min-width: 769px) and (max-width: 992px) {
   .font-small {
     font-size: 1.8rem;
