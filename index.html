@@ -296,25 +296,33 @@
           <div class="col-md-5">
             <img class="img-fluid" src="images/working.png" alt="" />
           </div>
-          <div class="col-md-7 p-5">
-            <h3 class="display-5 fw-semibold">
+          <div class="col-md-7 p-5 p-md-2 p-lg-5">
+            <h3 class="display-5 fw-semibold font-small">
               Explore The elearning Institute
             </h3>
             <p class="lead">
-              Top teachers on Dev Pro make as high as $40000 annually. Almost
-              every course lesson entails two key components—video and class
-              project. Courses are made up of a series of small videos whose
-              duration is typically anywhere between 10 and 25 minutes. You can
-              make money through Dev Pro's Partner Program. Of course, you have
-              to fulfill certain prerequisites like enrolling at-least 25
-              learners per class etc.
+              Top teachers on Dev Pro make as high as $40000 annually.
+              <span class="d-sm-inline d-md-none d-lg-inline">
+                Almost every course lesson entails two key components—video and
+                class project. Courses are made up of a series of small videos
+                whose duration</span
+              >
+              <span class="text-primary fw-semibold d-xxl-none"
+                >...See More</span
+              >
+              <span class="d-none d-xxl-inline">
+                is typically anywhere between 10 and 25 minutes. You can make
+                money through Dev Pro's Partner Program. Of course, you have to
+                fulfill certain prerequisites like enrolling at-least 25
+                learners per class etc.</span
+              >
             </p>
-            <p class="lead">
-              Dev Pro's subscription model is different from other. Other sells
-              subscriptions of individual courses while Dev Pro sells
-              subscriptions to all its complete content.
+            <p class="lead d-none d-xxl-inline">
+              You can make money through Dev Pro's Partner Program. Of course,
+              you have to fulfill certain prerequisites like enrolling at-least
+              25 learners per class etc.
             </p>
-            <div class="d-flex gap-5">
+            <div class="d-flex mt-3 gap-5">
               <div>
                 <h3 class="fw-bold">1.5K+</h3>
                 <p class="text-muted">Online Course</p>
@@ -329,6 +337,105 @@
               </div>
             </div>
             <button class="btn btn-primary px-3">Read More</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Register now section -->
+      <section class="bg-primary text-white p-5 rounded my-5">
+        <div class="row align-items-center">
+          <div class="col-lg-6 px-md-5 text-center text-lg-start">
+            <h3 class="display-5 fw-semibold">Ready to join?</h3>
+            <p class="lead">
+              Click register now button if you want to enroll to the next batch
+            </p>
+          </div>
+          <div class="col-lg-6 px-md-5 text-center text-lg-end">
+            <!-- Button trigger modal -->
+            <button
+              class="btn btn-light fw-semibold text-primary px-4 py-2"
+              data-bs-toggle="modal"
+              data-bs-target="#Modal"
+            >
+              Register Now
+            </button>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="Modal"
+          tabindex="-1"
+          aria-labelledby="ModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="d-flex justify-content-between p-3">
+                <h4
+                  class="modal-title fw-semibold text-primary"
+                  id="ModalLabel"
+                >
+                  Register
+                </h4>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Name"
+                      id="recipient-name"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Email"
+                      id="recipient-name"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <input
+                      type="password"
+                      class="form-control"
+                      placeholder="Password"
+                      id="recipient-name"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="recipient-name"
+                        name=""
+                      /><label
+                        class="form-check-label text-muted fw-semibold"
+                        for="recipient-name"
+                        >I agree to<a
+                          class="text-danger m-0 text-decoration-none"
+                          href=""
+                        >
+                          the terms and conditions</a
+                        ></label
+                      >
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <button class="btn btn-primary w-100">Register</button>
+                  </div>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
       </section>
